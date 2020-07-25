@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		D64CC9521F8798C400C5DDC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64CC9511F8798C400C5DDC4 /* AppDelegate.swift */; };
-		D64CC9541F8798C400C5DDC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64CC9531F8798C400C5DDC4 /* ViewController.swift */; };
+		D64CC9541F8798C400C5DDC4 /* Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64CC9531F8798C400C5DDC4 /* Landing.swift */; };
 		D64CC9571F8798C400C5DDC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64CC9551F8798C400C5DDC4 /* Main.storyboard */; };
 		D64CC9591F8798C400C5DDC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64CC9581F8798C400C5DDC4 /* Assets.xcassets */; };
 		D64CC95C1F8798C400C5DDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64CC95A1F8798C400C5DDC4 /* LaunchScreen.storyboard */; };
+		D64CC9641F87A76500C5DDC4 /* CustomizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64CC9631F87A76500C5DDC4 /* CustomizableView.swift */; };
+		D64CC9681F87B97600C5DDC4 /* Companies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64CC9671F87B97600C5DDC4 /* Companies.swift */; };
+		D6833A7E1F87BBF00019D98D /* CCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6833A7D1F87BBF00019D98D /* CCVCell.swift */; };
+		D6833A821F880ECE0019D98D /* Offers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6833A811F880ECE0019D98D /* Offers.swift */; };
+		D6833A841F8812690019D98D /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6833A831F8812690019D98D /* OfferCell.swift */; };
+		D6833A861F8829A60019D98D /* CompanyOffers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6833A851F8829A60019D98D /* CompanyOffers.swift */; };
+		D6833A881F8829D30019D98D /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6833A871F8829D30019D98D /* Offer.swift */; };
+		D6833A8A1F882B1C0019D98D /* CompanyOfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6833A891F882B1C0019D98D /* CompanyOfferCell.swift */; };
+		D6833A8C1F88AD450019D98D /* AddOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6833A8B1F88AD450019D98D /* AddOffer.swift */; };
+		D6833A8E1F88B81F0019D98D /* Hacen Jordan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6833A8D1F88B3490019D98D /* Hacen Jordan.ttf */; };
+		D6833A901F88BB760019D98D /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6833A8F1F88BB760019D98D /* EntryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D64CC94E1F8798C400C5DDC4 /* Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64CC9511F8798C400C5DDC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D64CC9531F8798C400C5DDC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D64CC9531F8798C400C5DDC4 /* Landing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landing.swift; sourceTree = "<group>"; };
 		D64CC9561F8798C400C5DDC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D64CC9581F8798C400C5DDC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D64CC95B1F8798C400C5DDC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D64CC95D1F8798C400C5DDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64CC9631F87A76500C5DDC4 /* CustomizableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizableView.swift; sourceTree = "<group>"; };
+		D64CC9671F87B97600C5DDC4 /* Companies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Companies.swift; sourceTree = "<group>"; };
+		D6833A7D1F87BBF00019D98D /* CCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCVCell.swift; sourceTree = "<group>"; };
+		D6833A811F880ECE0019D98D /* Offers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offers.swift; sourceTree = "<group>"; };
+		D6833A831F8812690019D98D /* OfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		D6833A851F8829A60019D98D /* CompanyOffers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyOffers.swift; sourceTree = "<group>"; };
+		D6833A871F8829D30019D98D /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		D6833A891F882B1C0019D98D /* CompanyOfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyOfferCell.swift; sourceTree = "<group>"; };
+		D6833A8B1F88AD450019D98D /* AddOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOffer.swift; sourceTree = "<group>"; };
+		D6833A8D1F88B3490019D98D /* Hacen Jordan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hacen Jordan.ttf"; sourceTree = "<group>"; };
+		D6833A8F1F88BB760019D98D /* EntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +76,19 @@
 		D64CC9501F8798C400C5DDC4 /* Hackathon */ = {
 			isa = PBXGroup;
 			children = (
+				D6833A8D1F88B3490019D98D /* Hacen Jordan.ttf */,
+				D64CC9531F8798C400C5DDC4 /* Landing.swift */,
+				D64CC9631F87A76500C5DDC4 /* CustomizableView.swift */,
+				D64CC9671F87B97600C5DDC4 /* Companies.swift */,
+				D6833A7D1F87BBF00019D98D /* CCVCell.swift */,
+				D6833A811F880ECE0019D98D /* Offers.swift */,
+				D6833A831F8812690019D98D /* OfferCell.swift */,
+				D6833A871F8829D30019D98D /* Offer.swift */,
+				D6833A851F8829A60019D98D /* CompanyOffers.swift */,
+				D6833A891F882B1C0019D98D /* CompanyOfferCell.swift */,
+				D6833A8B1F88AD450019D98D /* AddOffer.swift */,
+				D6833A8F1F88BB760019D98D /* EntryCell.swift */,
 				D64CC9511F8798C400C5DDC4 /* AppDelegate.swift */,
-				D64CC9531F8798C400C5DDC4 /* ViewController.swift */,
 				D64CC9551F8798C400C5DDC4 /* Main.storyboard */,
 				D64CC9581F8798C400C5DDC4 /* Assets.xcassets */,
 				D64CC95A1F8798C400C5DDC4 /* LaunchScreen.storyboard */,
@@ -124,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D64CC95C1F8798C400C5DDC4 /* LaunchScreen.storyboard in Resources */,
+				D6833A8E1F88B81F0019D98D /* Hacen Jordan.ttf in Resources */,
 				D64CC9591F8798C400C5DDC4 /* Assets.xcassets in Resources */,
 				D64CC9571F8798C400C5DDC4 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +170,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64CC9541F8798C400C5DDC4 /* ViewController.swift in Sources */,
+				D6833A821F880ECE0019D98D /* Offers.swift in Sources */,
+				D64CC9541F8798C400C5DDC4 /* Landing.swift in Sources */,
+				D6833A861F8829A60019D98D /* CompanyOffers.swift in Sources */,
+				D6833A7E1F87BBF00019D98D /* CCVCell.swift in Sources */,
+				D6833A901F88BB760019D98D /* EntryCell.swift in Sources */,
+				D6833A841F8812690019D98D /* OfferCell.swift in Sources */,
+				D64CC9681F87B97600C5DDC4 /* Companies.swift in Sources */,
+				D6833A881F8829D30019D98D /* Offer.swift in Sources */,
+				D6833A8C1F88AD450019D98D /* AddOffer.swift in Sources */,
 				D64CC9521F8798C400C5DDC4 /* AppDelegate.swift in Sources */,
+				D6833A8A1F882B1C0019D98D /* CompanyOfferCell.swift in Sources */,
+				D64CC9641F87A76500C5DDC4 /* CustomizableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +319,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23JV9CX78L;
 				INFOPLIST_FILE = Hackathon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AmmarTahhan.Hackathon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarob.hack1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +334,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQ7Y8532L6;
 				INFOPLIST_FILE = Hackathon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AmmarTahhan.Hackathon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yarob.hack11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
